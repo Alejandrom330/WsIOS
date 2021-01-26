@@ -1,0 +1,87 @@
+//import UIKit
+
+//Ejercicio 1 Triangilo
+
+var base = 5
+var altura = 10
+
+var perimetro = base + base + base
+var area = (base * altura) / 2
+
+print(perimetro)
+print(area)
+
+//Rectangulo
+var ancho = 20
+var alto = 10
+var areaR = (ancho * alto)
+var perimR = (ancho * 2) + (alto * 2)
+print("Área ejercicio 1: \(areaR)")
+print("Perímetro ejercicio 1: \(perimR)")
+
+//Ejercicio 2: dados los catetos de un triángulo rectángulo, calcular su hipotenusa
+var cateto1 = 20.0
+var cateto2 = 30.0
+var hipotenusa = (cateto1 * cateto1) + (cateto2 * cateto2)
+
+print("La hipotenusa es:  \(hipotenusa)")
+
+//Ejercicio 3
+
+var num1 = 2
+var num2 = 4
+
+print(num2 + num1)
+print(num2 - num1)
+print(num2 * num1)
+print(num2 / num1)
+
+//Ejercicio 4
+
+var gradosF = 86
+var gradosC = (86 - 32) / 1.8
+print(gradosC)
+
+//Ejercicio 6
+
+var salBase = 100
+
+var salComision = (salBase * 30) / 100
+
+print("Salario base \(salBase)")
+print("Comision \(salComision)")
+print("Salario total: ")
+print(salComision + salBase)
+
+//Ejercicio 7
+
+var nota1 = 5.0
+var nota2 = 7.0
+var nota3 = 9.0
+var notaExamenF = 8.0
+var notaTrabajoF = 6.0
+
+var primera = (nota1 + nota2 + nota3) / 3
+primera = (primera * 55) / 100
+
+var segunda = (notaExamenF * 30) / 100
+var tercera = (notaTrabajoF * 15) / 100
+
+var total = primera + segunda + tercera
+print(total)
+
+//Ejercicio 8
+
+var correctas = 6
+var incorrectas = 3
+var enBlanco = 1
+
+print((correctas * 5) + (incorrectas * -1))
+
+//Ejercicio 9
+var sueldoOrig = 200 
+var horas : Int? = 5
+var precioHora = 5
+var extra = precioHora * (horas ?? 0) // Operador nil coalsing (es como un if de java)
+var sueldoFinal = sueldoOrig + extra
+print ("\nEl sueldo final es \(sueldoFinal)")
